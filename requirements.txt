@@ -1,9 +1,9 @@
-torchvision
-torch
+-f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
+torch_nightly
 fastai
 starlette
 uvicorn
 python-multipart
 aiofiles
 aiohttp
-Pillow<=6.2.2
+Pillow<=6.1
