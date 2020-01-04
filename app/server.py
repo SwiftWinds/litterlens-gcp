@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.googleapis.com/drive/v3/files/17bEwiC-XaRoMSYYBBhV2FdvHVa-BNKlX?alt=media&key=AIzaSyBCQLh8-VOPFr6TiN3VJQPmhd5NxXReofc'
+model_file_url = 'https://www.googleapis.com/drive/v3/files/1inWqP3sgqcN_ynApHBly310BPRWiLPTl?alt=media&key=AIzaSyASPP5xnK7bOW4elfC3t24B2OVb0O_ZOiI'
 model_file_name = 'export.pkl'
 
 classes = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
