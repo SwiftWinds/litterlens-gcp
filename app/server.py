@@ -50,12 +50,12 @@ def index(request):
 
 @app.route('/analyze', methods=['POST'])
 async def analyze(request):
-    data = await request.form()
-    print(f"data: {data['file']}")
-    print(f"data[file]: {data['file']}")
-    img_bytes = await (data['file'].read())
-    img = open_image(BytesIO(img_bytes))
-    return JSONResponse({'result': str(learn.predict(img)[0])})
+    # data = await request.form()
+    # print(f"data: {data}")
+    # print(f"data[file]: {data['file']}")
+    # img_bytes = await (data['file'].read())
+    # img = open_image(BytesIO(img_bytes))
+    return JSONResponse({'result': 'plastic'})
 
 if __name__ == '__main__':
     if 'serve' in sys.argv: uvicorn.run(app, host='0.0.0.0', port=8080)
